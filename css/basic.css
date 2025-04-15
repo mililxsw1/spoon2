@@ -18,6 +18,7 @@
 
     body,html{
         height: 100%;
+        overflow-x: hidden;
     }
 
     a{
@@ -36,7 +37,13 @@
     .container{
 max-width: 1185px;
 margin: 0 auto;
+padding: 0 10px;
     }
+
+img{
+    max-width: 100%;
+}
+
 
 .main-text {
 font-family: var(--fontLF);

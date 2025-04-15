@@ -55,3 +55,18 @@ color: #000;
 .offers__link {
 margin-top: 12px;
 }
+
+@media(max-width:1125px){
+    .offers__item :last-child{
+   padding-left: 0;
+    }
+    .offers__item:first-child{
+        padding-right: 0;
+    }
+.offers{margin-top: 100px;}
+}
+
+@media(max-width:900px){
+    .offers__item{flex-direction: column;}
+    .offers__info{margin-top: 60px;}
+}

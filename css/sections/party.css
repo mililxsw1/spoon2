@@ -3,7 +3,8 @@
 }
 .party__contant {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between; 
+  align-items: center; 
 }
 .party__info-block {
     max-width: 480px;
@@ -28,3 +29,12 @@ margin-bottom: 15px;
     background-color: #5ab963;
     display: inline-block;
 }
+
+@media(max-width:670px){
+    .party__contant{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .party{margin-top: 70px;}
+}
+
